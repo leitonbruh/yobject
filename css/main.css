@@ -1,0 +1,95 @@
+#yobjectBox {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  margin-top: -20px;
+  animation-name: logo;
+  animation-duration: 1s;
+}
+
+@keyframes logo {
+  0% {
+    filter: blur(20px);
+    opacity: 0;
+  }
+  100% {
+  }
+}
+#yobjectT {
+  text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.342);
+  animation-name: logo;
+  animation-duration: 1s;
+}
+
+#download {
+  display: flex;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: Damione;
+  src: url(/fonts/DaMiOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: Donpoli;
+  src: url(/fonts/Donpoligrafbum-Bold.otf);
+}
+
+@font-face {
+  font-family: MontserratL;
+  src: url(/fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: MontserratR;
+  src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Nuqun;
+  src: url(/fonts/Nuqun-Regular.otf);
+}
+
+@font-face {
+  font-family: Meslo;
+  src: url(/fonts/MesloLGLDZNerdFont-Regular.ttf);
+}
+
+body {
+  background-image: url(/images/unity_screenshot.png);
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: -40px;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: rgb(255, 255, 255);
+}
+
+button:focus {
+  transform: scale(1.1);
+  background-color: rgb(185, 185, 185);
+}
+
+button {
+  transition: all 0.3s;
+}
+
+#ADV {
+  background-color: rgb(32, 35, 41);
+  border-radius: 15px;
+  height: 70px;
+  margin-top: -50px;
+  position: relative;
+  left: 50%;
+  width: 190px;
+  transform: translate(-50%, 50%);
+}
+
+#youtube {
+  display: flex;
+  justify-content: center;
+}
